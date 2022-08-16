@@ -1,0 +1,8 @@
+function myFunction (){
+  var satu = "kalimat";
+  var dua = "bilangan";
+  var isi = satu+dua;
+  var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+ var csatu = ss.getRange("C1").getValue();
+ if (csatu=="ooo"){ss.getRange("A1").setValue("yuu")} 
+ else if (ss.getRange("A1").setValue("pepe")); 
